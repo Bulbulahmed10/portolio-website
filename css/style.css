@@ -1,0 +1,81 @@
+
+/* === about--progress section start === */
+
+.progress-title{
+    width: 100%;
+    height: auto;
+
+}
+
+.progress-title h3{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 20px;
+
+    }
+
+.progress{
+    height: 20px;
+    background: #171b3c;
+    border-radius: 20px;
+    border: 1px solid #000;
+    box-shadow: 0 2px 2px #4f4c4c;
+    margin-bottom: 40px;
+    overflow: visible;
+    position: relative;
+    
+}
+
+.progress .progress-bar{
+    border-radius: 20px;
+    border: 1px solid #000;
+    animation: animate-positive 2s;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+
+}
+
+.progress .progress-value{
+    width: 5%;
+    height: 25px;
+    line-height: 25px;
+    background: #171b3c;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 0 0 15px 15px;
+    border: 1px solid #000;
+    border-top: none;
+    box-shadow: 0 2px 2px #4f4c4c;
+    position: absolute;
+    bottom: -25px;
+    right: 60px;
+
+}
+
+@-webkit-keyframes animate-position{
+    0%{
+        width: 0;
+    }
+}
+
+@keyframes animate-positive{
+    0%{
+        width: 0;
+    }
+}
+
+/* === about--progress section end=== */
+
+a{
+    text-decoration: none;
+}
+
+.social-link a i{
+    font-size: 1.5rem;
+    transition: .3s;
+    
+}
+
+.social-link a i:hover{
+    color: red;
+}
